@@ -579,12 +579,6 @@ function ProjectCard({ p, index }) {
           <p className="project-highlight">
             <Sparkles size={14} /> {p.highlight}
           </p>
-
-          <div className="project-links">
-            <a href="#" className="link-btn">
-              <ExternalLink size={15} /> Live demo
-            </a>
-          </div>
         </div>
       </article>
     </Reveal>
